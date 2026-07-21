@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>أكاديمية سحر قمر | منصة تعليم إلكتروني</title>
+    <meta name="description" content="أكاديمية سحر قمر — منصة تعليمية تُضيء لك طريق التعلّم في البرمجة والتصميم واللغات وتطوير الذات." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌙</text></svg>" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="topbar">
+        <div class="container">
+            <div class="topbar-contact">
+                <span data-i18n="top_email">✉️ info@sahar-qamar-academy.com</span>
+                <span data-i18n="top_phone">📞 966500000000+</span>
+            </div>
+            <div class="lang-switch">
+                <button type="button" data-lang="ar">AR</button>
+                <button type="button" data-lang="en">EN</button>
+            </div>
+        </div>
+    </div>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-icon">🌙</span>
+                <span>
+                    <span class="logo-text"><span data-i18n="site_name">سحر قمر</span></span>
+                    <span class="logo-sub" data-i18n="site_name_sub">أكاديمية</span>
+                </span>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="فتح القائمة">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="index.html" class="active" data-i18n="nav_home">الرئيسية</a></li>
+                    <li><a href="courses.html" data-i18n="nav_courses">الدورات</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">من نحن</a></li>
+                    <li><a href="contact.html" data-i18n="nav_contact">تواصل</a></li>
+                    <li><a href="login.html" id="navAuthLink" class="btn-nav-login" data-i18n="nav_login">تسجيل الدخول</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== البانر الرئيسي ===== -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-eyebrow" data-i18n="hero_eyebrow">🔥 أكثر من 12,000 متعلم انضموا إلينا</span>
+                <h1><span data-i18n="hero_title_1">نُضيء لك</span> <span data-i18n="hero_title_2">طريق التعلّم</span></h1>
+                <p data-i18n="hero_desc">منصة سحر قمر تجمع لك أفضل الدورات في البرمجة والتصميم واللغات وتطوير الذات، بإشراف مدربين محترفين، لتتعلم بخطى واثقة وتصل لهدفك بأقل وقت وجهد.</p>
+                <div class="hero-buttons">
+                    <a href="courses.html" class="btn btn-primary" data-i18n="hero_btn_courses">استكشف الدورات</a>
+                    <a href="login.html" class="btn btn-outline" data-i18n="hero_btn_register">ابدأ مجاناً</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat"><b class="counter" data-target="120" data-prefix="+">0</b><span data-i18n="hero_stat1_label">دورة تدريبية</span></div>
+                    <div class="hero-stat"><b class="counter" data-target="12000" data-prefix="+">0</b><span data-i18n="hero_stat2_label">متعلم نشط</span></div>
+                    <div class="hero-stat"><b class="counter" data-target="4.9" data-decimals="1" data-suffix="/5">0</b><span data-i18n="hero_stat3_label">تقييم المتدربين</span></div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="beacon">
+                    <span class="beacon-icon">🌙</span>
+                    <span class="sparkle s1">✨</span>
+                    <span class="sparkle s2">⭐</span>
+                    <span class="sparkle s3">✨</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="trust-strip">
+        <div class="container">
+            <span data-i18n="trust_1">🏆 دورات معتمدة</span>
+            <span data-i18n="trust_2">🕒 تعلم حسب وقتك</span>
+            <span data-i18n="trust_3">🔒 دفع آمن</span>
+            <span data-i18n="trust_4">🎓 شهادات إتمام</span>
+        </div>
+    </div>
+
+    <!-- ===== المميزات ===== -->
+    <section class="features">
+        <div class="container">
+            <span class="section-eyebrow" data-i18n="feat_eyebrow">لماذا سحر قمر</span>
+            <h2 class="section-title"><span data-i18n="feat_title_1">لماذا تختار</span> <span data-i18n="feat_title_2">منصتنا؟</span></h2>
+            <p class="section-subtitle" data-i18n="feat_subtitle">كل ما تحتاجه لتتعلم بفعالية، في مكان واحد.</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3 data-i18n="feat1_title">محتوى غني وموثوق</h3>
+                    <p data-i18n="feat1_desc">دورات شاملة ومحدّثة في مختلف المجالات يعدّها خبراء متخصصون.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💡</div>
+                    <h3 data-i18n="feat2_title">تعلم تفاعلي عملي</h3>
+                    <p data-i18n="feat2_desc">تمارين ومشاريع حقيقية تطبّق فيها ما تتعلمه فوراً.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3 data-i18n="feat3_title">مجتمع داعم</h3>
+                    <p data-i18n="feat3_desc">تفاعل مع مدربين وزملاء دراسة عبر التعليقات والنقاشات.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3 data-i18n="feat4_title">تطوير مستمر</h3>
+                    <p data-i18n="feat4_desc">نحدّث المحتوى باستمرار لمواكبة أحدث تطورات سوق العمل.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== المسار ===== -->
+    <section class="path-section">
+        <div class="container">
+            <span class="section-eyebrow" data-i18n="path_eyebrow">ابدأ الآن</span>
+            <h2 class="section-title"><span data-i18n="path_title_1">طريقك نحو</span> <span data-i18n="path_title_2">التميز</span></h2>
+            <p class="section-subtitle" data-i18n="path_subtitle">أربع خطوات بسيطة تفصلك عن مهارة جديدة.</p>
+            <div class="path-track">
+                <div class="path-step">
+                    <div class="path-num">1</div>
+                    <h4 data-i18n="path1_title">أنشئ حسابك</h4>
+                    <p data-i18n="path1_desc">سجّل مجاناً خلال دقيقة واحدة.</p>
+                </div>
+                <div class="path-step">
+                    <div class="path-num">2</div>
+                    <h4 data-i18n="path2_title">اختر دورتك</h4>
+                    <p data-i18n="path2_desc">تصفّح المكتبة واختر ما يناسب هدفك.</p>
+                </div>
+                <div class="path-step">
+                    <div class="path-num">3</div>
+                    <h4 data-i18n="path3_title">تعلّم بخطاك</h4>
+                    <p data-i18n="path3_desc">شاهد، تدرّب، وناقش مع المجتمع.</p>
+                </div>
+                <div class="path-step">
+                    <div class="path-num">4</div>
+                    <h4 data-i18n="path4_title">احصل على شهادتك</h4>
+                    <p data-i18n="path4_desc">أنجز الدورة واحصل على شهادة معتمدة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== آراء الطلاب ===== -->
+    <section class="features">
+        <div class="container">
+            <span class="section-eyebrow" data-i18n="testi_eyebrow">قالوا عنا</span>
+            <h2 class="section-title" data-i18n="testi_title">آراء طلابنا</h2>
+            <p class="section-subtitle" data-i18n="testi_subtitle">تجارب حقيقية من متعلمين انضموا إلى رحلة سحر قمر.</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌟</div>
+                    <p style="color:var(--text); font-style:italic; margin-bottom:1rem;" data-i18n="testi1_text">"محتوى واضح ومباشر، وتفاعل المدربين مع أسئلتي كان سريعاً جداً. غيّرت مساري المهني فعلاً."</p>
+                    <h3 style="font-size:1rem;" data-i18n="testi1_name">— ريم العبدالله</h3>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <p style="color:var(--text); font-style:italic; margin-bottom:1rem;" data-i18n="testi2_text">"أفضل منصة جربتها لتعلم البرمجة بالعربي. التمارين العملية فرقت معي كتير."</p>
+                    <h3 style="font-size:1rem;" data-i18n="testi2_name">— عمر التجاني</h3>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <p style="color:var(--text); font-style:italic; margin-bottom:1rem;" data-i18n="testi3_text">"حصلت على شهادة إتمام واستخدمتها فعلياً في سيرتي الذاتية. تجربة احترافية من أولها لآخرها."</p>
+                    <h3 style="font-size:1rem;" data-i18n="testi3_name">— هبة كمال</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="container">
+        <div class="cta-band">
+            <h2 data-i18n="cta_title">جاهز تضيء طريقك المهني؟</h2>
+            <p data-i18n="cta_desc">انضم اليوم إلى آلاف المتعلمين وابدأ رحلتك مع سحر قمر.</p>
+            <a href="login.html" class="btn btn-primary" data-i18n="cta_btn">أنشئ حسابك الآن</a>
+        </div>
+    </section>
+
+    <!-- ===== التذييل ===== -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h4>🌙 <span data-i18n="site_name">سحر قمر</span></h4>
+                <p data-i18n="footer_about">منصة تعليمية سودانية تهدف لنشر المعرفة وتمكين المتعلمين من اكتساب مهارات المستقبل.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="Instagram">📸</a>
+                    <a href="#" aria-label="X">🐦</a>
+                    <a href="#" aria-label="YouTube">▶️</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_links">روابط سريعة</h4>
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">الرئيسية</a></li>
+                    <li><a href="courses.html" data-i18n="nav_courses">الدورات</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">من نحن</a></li>
+                    <li><a href="contact.html" data-i18n="nav_contact">تواصل</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="nav_login">تسجيل الدخول</h4>
+                <ul>
+                    <li><a href="login.html" data-i18n="nav_login">تسجيل الدخول</a></li>
+                    <li><a href="register.html" data-i18n="nav_register">إنشاء حساب</a></li>
+                    <li><a href="backend/admin/login.php">لوحة التحكم</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contact">تواصل معنا</h4>
+                <p data-i18n="top_email">✉️ info@sahar-qamar-academy.com</p>
+                <p data-i18n="top_phone">📞 966500000000+</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer_rights">© 2026 أكاديمية سحر قمر. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="lang.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
