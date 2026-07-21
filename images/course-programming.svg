@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
+  <defs>
+    <linearGradient id="bgProg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2A1B4D"/>
+      <stop offset="55%" stop-color="#3B2568"/>
+      <stop offset="100%" stop-color="#4D3182"/>
+    </linearGradient>
+    <radialGradient id="glowProg" cx="82%" cy="18%" r="55%">
+      <stop offset="0%" stop-color="#F2A93B" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#F2A93B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#bgProg)"/>
+  <rect width="600" height="360" fill="url(#glowProg)"/>
+  <circle cx="60" cy="300" r="3" fill="#F2A93B" opacity="0.6"/>
+  <circle cx="110" cy="60" r="2.5" fill="#EDE8F7" opacity="0.5"/>
+  <circle cx="500" cy="290" r="2.5" fill="#EDE8F7" opacity="0.4"/>
+  <circle cx="540" cy="80" r="3.5" fill="#F2A93B" opacity="0.5"/>
+  <!-- كرت شاشة مجردة -->
+  <g transform="translate(150,80)">
+    <rect x="0" y="0" width="300" height="190" rx="18" fill="#EDE8F7" opacity="0.06"/>
+    <rect x="0" y="0" width="300" height="190" rx="18" fill="none" stroke="#F2A93B" stroke-opacity="0.55" stroke-width="2"/>
+    <rect x="0" y="0" width="300" height="34" rx="18" fill="#F2A93B" opacity="0.16"/>
+    <circle cx="22" cy="17" r="5" fill="#F2A93B"/>
+    <circle cx="40" cy="17" r="5" fill="#EDE8F7" opacity="0.6"/>
+    <circle cx="58" cy="17" r="5" fill="#EDE8F7" opacity="0.35"/>
+    <!-- أقواس الكود -->
+    <text x="150" y="128" text-anchor="middle" font-family="Cairo, sans-serif" font-weight="900" font-size="72" fill="#F2A93B">&lt;/&gt;</text>
+  </g>
+  <!-- خطوط كود صغيرة -->
+  <rect x="176" y="245" width="120" height="8" rx="4" fill="#F2A93B" opacity="0.7"/>
+  <rect x="176" y="262" width="180" height="8" rx="4" fill="#EDE8F7" opacity="0.4"/>
+  <rect x="176" y="279" width="90" height="8" rx="4" fill="#EDE8F7" opacity="0.25"/>
+</svg>
